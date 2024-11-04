@@ -1,0 +1,299 @@
+.main-cont{
+    background-color: black;
+    color: white;
+    font-family: serif;
+}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+.navbar.nav-cont {
+    background-color: #45484b;
+}
+
+.navbar .nav-link {
+    color: white !important; 
+}
+
+.navbar .nav-link:link {
+    font-weight: 0px;
+}
+.navbar .nav-link:hover {
+    color: #d1d1d1; 
+    background-color: rgb(0, 140, 255);
+    border-radius: 10px;
+}
+.navbar .nav-link:active{
+    font-weight: bold;
+}
+.bi{
+    color: white;
+}
+#sectionHome, #sectionEducation, #sectionSkills, #sectionProjects, #sectionCertificates, #sectionWorkshop{
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: black;
+}
+.pic-cont{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    width: 40%;
+    border-radius: 1000px;
+    margin-right: 10px;
+}
+.intro-quote{
+    font-size: 70px;
+}
+.quote{
+    color: rgb(0, 191, 255);
+    animation: blink 1s infinite; 
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }  
+    50% { opacity: 0; }       
+}
+.objective{
+    font-family: serif;
+    font-size: 22px;
+}
+.section-head{
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.edu-main-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.edu-head{
+    display: flex;
+    align-items: center;
+}
+.nxt-wave-cont{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #6e707262;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6e7072b3;
+    margin-bottom: 20px;
+    width: 48%;
+}
+.timing{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.edu-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.work{
+    display: flex;
+    align-items: center;
+}
+.marks{
+    display: flex;
+    align-items: center;
+}
+.skill-main-cont{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.frontend{
+    font-size: 20px;
+    background-color: #6e707262;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6e7072b3;
+    width: 23%;
+    text-align: center;
+}
+.tech-head{
+    background-color: #6e7072b3;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 10px;
+    font-size: 26px;
+}
+.project-main-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-cont{
+    width: 31%;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+.trendz{
+    background-image: url('./nxtTrendz.png');
+}
+.watch{
+    background-image: url('./nxtWatch.png');
+}
+.movies{
+    background-image: url('./moviesApp.png');
+}
+.arrow{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.cert-main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.cert-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 49%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #6e7072b3;
+    margin-bottom: 20px;
+}
+.carousal{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+#carouselExampleControls{
+    width: 60%;
+}
+.contact-cont{
+    background-color: #45484b;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+}
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+.contact-cont .contact-item a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact-name{
+    margin: 0px;
+    padding-left: 10px;
+}
+@media (max-width: 900px){
+    .nxt-wave-cont{
+        width: 100%;
+    }
+    #sectionHome, #sectionEducation, #sectionSkills, #sectionProjects, #sectionCertificates, #sectionWorkshop{
+        width: 100%;
+    }
+    .main-cont{
+        width: 100%;
+    }
+    .pic-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile{
+        width: 60%;
+        border-radius: 1000px;
+        margin-right: 10px;
+    }
+    .intro-quote{
+        font-size: 33px;
+        text-align: center;
+    }
+    .quote{
+        color: rgb(0, 191, 255);
+        animation: blink 1s infinite; 
+    }
+    .section-head{
+        font-size: 32px;
+    }
+    .objective{
+        text-align: center;
+        font-size: 18px;
+    }
+    .edu-logo{
+        height: 30px;
+        width: 30px;
+    }
+    .edu-head{
+        font-size: 26px;
+    }
+    .degree,.work{
+        font-size: 20px;
+    }
+    .about-edu{
+        font-size: 17px;
+    }
+    .frontend{
+        width: 47%;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .tech-head{
+        font-size: 19px;
+    }
+    .project-main-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project-cont{
+        width: 100%;
+        height: 200px;
+    }
+    .cert-head{
+        font-size: 20px;
+    }
+    #carouselExampleControls{
+        width: 100%;
+    }
+    .contact-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: static !important;
+    }
+}
