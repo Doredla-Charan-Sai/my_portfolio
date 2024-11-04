@@ -99,9 +99,13 @@
     border-radius: 20px;
     margin-right: 10px;
 }
-.work{
+.study-cont{
     display: flex;
     align-items: center;
+}
+.study-icon{
+    width: 30%;
+    height: 30px;
 }
 .marks{
     display: flex;
@@ -217,12 +221,19 @@
     margin: 0px;
     padding-left: 10px;
 }
-@media (max-width: 900px){
+
+@media (max-width: 800px){
+    .navbar{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
     .nxt-wave-cont{
         width: 100%;
     }
     #sectionHome, #sectionEducation, #sectionSkills, #sectionProjects, #sectionCertificates, #sectionWorkshop{
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .main-cont{
         width: 100%;
@@ -252,18 +263,55 @@
         text-align: center;
         font-size: 18px;
     }
+    .timing{
+        font-size: 18px !important;
+    }
+    .nxt-wave-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .edu-logo{
-        height: 30px;
-        width: 30px;
+        width: 30%;
+        margin-right: 0px;
     }
     .edu-head{
-        font-size: 26px;
+        font-size: 23px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .edu-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .study-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .study-icon{
+        width: 23% !important;
+        height: 30px;
     }
     .degree,.work{
-        font-size: 20px;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .degree{
+        text-align: center;
+        font-weight: bold;
     }
     .about-edu{
         font-size: 17px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .study-icon{
+        width: 50% !important;
     }
     .frontend{
         width: 47%;
@@ -281,6 +329,9 @@
     .project-cont{
         width: 100%;
         height: 200px;
+    }
+    .cert-cont{
+        width: 100%;
     }
     .cert-head{
         font-size: 20px;
